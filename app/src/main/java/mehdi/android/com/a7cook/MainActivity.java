@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 bannersRv.setLayoutManager(new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL,
                         false));
                 bannersRv.setAdapter(new BannerAdapter(banners));
-
+/// fixed
 
                 SnapHelper snapHelper = new PagerSnapHelper();
                 snapHelper.attachToRecyclerView(bannersRv);
